@@ -2,10 +2,10 @@
 # Answer is: 6857
 
 def prime?(number)
-  (2..number-1).none? { |i| number % i == 0}
+  (2..number-1).none? { |i| number % i == 0 }
 end
 
-def find_prime_factor(number)
+def largest_prime_factor(number)
   n = 2
   loop do
     n == number ? break : nil
@@ -18,4 +18,4 @@ def find_prime_factor(number)
   number
 end
 
-puts find_prime_factor(600851475143)
+puts largest_prime_factor(600851475143)
