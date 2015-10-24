@@ -1,3 +1,6 @@
+# https://projecteuler.net/problem=8
+# Answer is: 23514624000
+
 big_number = '73167176531330624919225119674426574742355349194934' \
   '96983520312774506326239578318016984801869478851843' \
   '85861560789112949495459501737958331952853208805511' \
@@ -23,7 +26,7 @@ cache = Array.new
 max = 0
 
 13.times do |i|
-  cache << big_number.shift(13)
+  cache << big_number.shift
 end
 
 big_number.length.times do |j|
