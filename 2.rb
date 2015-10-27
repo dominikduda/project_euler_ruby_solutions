@@ -3,12 +3,9 @@
 
 def sum_even_fib_numbers_smaller_than(term_rear, term_front, range)
   sum = 0
-  loop do
+  while term_rear < range do
     term_rear.even? ? sum += term_rear : nil
-    term_new = term_front + term_rear
-    term_rear = term_front
-    term_front = term_new
-    term_rear > range ? break : nil
+    term_rear, term_front = term_front, term_front + term_rear
   end
   sum
 end
