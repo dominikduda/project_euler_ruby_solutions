@@ -16,10 +16,12 @@ def factorize_first(number)
 end
 
 def amount_of_divisors(number)
-  cache = []
+  amount_of_each_prime_factor = []
   prime_factors_of_number = factorize_first(number)
-  prime_factors_of_number.uniq.each { |prime_factor| cache << prime_factors_of_number.count(prime_factor) + 1 }
-  cache.inject(&:*)
+  prime_factors_of_number.uniq.each do |prime_factor|
+    amount_of_each_prime_factor << prime_factors_of_number.count(prime_factor) + 1
+  end
+  amount_of_each_prime_factor.inject(&:*)
 end
 
 triangle_number = 1
