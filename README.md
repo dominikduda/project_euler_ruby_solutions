@@ -4,8 +4,6 @@ In case content of site mentioned above would change for whatever reason, I'm pa
 
 #### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17)
 
-[go top](#all-problems-taken-from-project-euler)
-
 ---
 ### Problem 1:
 ##### Multiples of 3 and 5
@@ -14,7 +12,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 
-[go top](#all-problems-taken-from Project Euler)
+[Go top](#all-problems-are-taken-form-project-euler) | [See this problem on Project Euler](https://projecteuler.net/problem=1) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/1.rb)
 
 ---
 ### Problem 2:
