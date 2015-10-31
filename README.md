@@ -2,7 +2,7 @@
 
 In case content of site mentioned above would change for whatever reason, I'm pasting here versions of problems I was working with.
 
-#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17)
+#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18)
 
 ---
 ### Problem 1:
@@ -134,7 +134,7 @@ Find the sum of all the primes below two million.
 ---
 ### Problem 11:
 ##### Largest product in a grid
-In the 20×20 grid below, four numbers along a diagonal line have been marked in red. (*They are bolded here because there is no possibility to color text in ".md" file - author's note*)
+In the 20×20 grid below, four numbers along a diagonal line have been marked in red (*They are bolded here because there is no possibility to color text in ".md" file - author's note*).
 
 08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08<br>
 49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00<br>
@@ -155,7 +155,7 @@ In the 20×20 grid below, four numbers along a diagonal line have been marked in
 04 42 16 73 38 25 39 11 24 94 72 18 08 46 29 32 40 62 76 36<br>
 20 69 36 41 72 30 23 88 34 62 99 69 82 67 59 85 74 04 36 16<br>
 20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54<br>
-01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48<br>
+01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
 
 The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 
@@ -348,6 +348,43 @@ If all the numbers from 1 to 1000 (one thousand) inclusive were written out in w
 NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-two) contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. The use of "and" when writing out numbers is in compliance with British usage.
 
 [See this problem on Project Euler](https://projecteuler.net/problem=17) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/17.rb)
+
+---
+### Problem 18:
+##### Maximum path sum I
+By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.
+
+<div style="text-align:center">
+**3**<br>
+**7** 4<br>
+2 **4** 6<br>
+8 5 **9** 3
+</div>
+
+That is, 3 + 7 + 4 + 9 = 23.
+Find the maximum total from top to bottom of the triangle below:
+
+<div style="text-align:center">
+75<br>
+95 64<br>
+17 47 82<br>
+18 35 87 10<br>
+20 04 82 47 65<br>
+19 01 23 75 03 34<br>
+88 02 77 73 07 63 67<br>
+99 65 04 28 06 16 70 92<br>
+41 41 26 56 83 40 80 70 33<br>
+41 48 72 33 47 32 37 16 94 29<br>
+53 71 44 65 25 43 91 52 97 51 14<br>
+70 11 33 28 77 73 17 78 39 68 17 57<br>
+91 71 52 38 17 14 91 43 58 50 27 29 48<br>
+63 66 04 68 89 53 67 30 73 16 69 87 40 31<br>
+04 62 98 27 23 09 70 98 73 93 38 53 60 04 23</div>
+<br>
+NOTE: As there are only 16384 routes, it is possible to solve this problem by trying every route. However, Problem 67, is the same challenge with a triangle containing one-hundred rows; it cannot be solved by brute force, and requires a clever method! ;o)
+
+[See this problem on Project Euler](https://projecteuler.net/problem=18) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/18.rb)
+
 <!--
 <template>
 
@@ -356,6 +393,6 @@ NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-
 ##### lorem ipsum
 lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
 
-[See this problem on Project Euler](https://projecteuler.net/problem=N) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/N.rb)
+[See this problem on Project Euler](https://projecteuler.net/problem=N) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/N.lorem)
 </template>
  -->
