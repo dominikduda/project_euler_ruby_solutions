@@ -2,7 +2,7 @@
 
 In case content of site mentioned above would change for whatever reason, I'm pasting here versions of problems I was working with.
 
-#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18)
+#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19)
 
 ---
 ### Problem 1:
@@ -369,6 +369,23 @@ NOTE: As there are only 16384 routes, it is possible to solve this problem by tr
 
 [See this problem on Project Euler](https://projecteuler.net/problem=18) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/18.rb)
 
+---
+### Problem 19:
+##### Counting Sundays
+You are given the following information, but you may prefer to do some research for yourself.
+
+- 1 Jan 1900 was a Monday.
+- Thirty days has September,
+April, June and November.
+All the rest have thirty-one,
+Saving February alone,
+Which has twenty-eight, rain or shine.
+And on leap years, twenty-nine.
+- A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400.
+
+How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
+
+[See this problem on Project Euler](https://projecteuler.net/problem=19) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/19.rb)
 <!--
 <template>
 
