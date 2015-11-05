@@ -27,7 +27,7 @@ product_of_four = 1
 
 # horizontal
 (grid.length).times do |y|
-  (grid[y].length-4).times do |x|
+  (grid[y].length - 4).times do |x|
     4.times { |j| product_of_four *= y[x + j] }
     product_of_four > max ? max = product_of_four : nil
     product_of_four = 1
@@ -35,17 +35,17 @@ product_of_four = 1
 end
 
 # vertical
-(grid.length-4).times do |y|
+(grid.length - 4).times do |y|
   (grid[y].length).times do |x|
-    4.times { |j| product_of_four *= grid[y + j][x]}
+    4.times { |j| product_of_four *= grid[y + j][x] }
     product_of_four > max ? max = product_of_four : nil
     product_of_four = 1
   end
 end
 
 # diagonal left
-(grid.length-4).times do |y|
-  (grid[y].length-4).times do |x|
+(grid.length - 4).times do |y|
+  (grid[y].length - 4).times do |x|
     4.times { |j| product_of_four *= grid[y + (3 - j)][x + j] }
     product_of_four > max ? max = product_of_four : nil
     product_of_four = 1
@@ -53,10 +53,10 @@ end
 end
 
 # diagonal right
-(grid.length-4).times do |y|
-  (grid[y].length-4).times do |x|
+(grid.length - 4).times do |y|
+  (grid[y].length - 4).times do |x|
     product_of_four > max ? max = product_of_four : nil
-    4.times { |j| product_of_four *= grid[y + j][x + (3 - j)]}
+    4.times { |j| product_of_four *= grid[y + j][x + (3 - j)] }
     product_of_four = 1
   end
 end

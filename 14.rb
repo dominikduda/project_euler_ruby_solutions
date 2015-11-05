@@ -6,20 +6,20 @@ max_sequence_length = 0
 known_sequences = {}
 temp_sequence_terms = []
 
-1.upto(999999) do |starting_number|
+1.upto(999_999) do |starting_number|
   next if known_sequences[starting_number]
 
   sequence_length = 1
   term = starting_number
 
   while term > 1
-    unless known_sequences[term]
+    if known_sequences[term]
+      sequence_length += known_sequences[term] - 1
+      break
+    else
       temp_sequence_terms << term
       term.even? ? term /= 2 : term = 3 * term + 1
       sequence_length += 1
-    else
-      sequence_length += known_sequences[term] - 1
-      break
     end
   end
 

@@ -3,10 +3,10 @@
 
 def make_triangle(array_of_numbers)
   i = 1
-  until array_of_numbers[0].is_a?(Array) do
-   array_of_numbers << array_of_numbers.take(i)
-   i.times { array_of_numbers.shift }
-   i += 1
+  until array_of_numbers[0].is_a?(Array)
+    array_of_numbers << array_of_numbers.take(i)
+    i.times { array_of_numbers.shift }
+    i += 1
   end
 end
 

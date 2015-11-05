@@ -2,7 +2,7 @@
 # Answer is: 6857
 
 def prime?(number)
-  (2..number-1).none? { |i| number % i == 0 }
+  (2..number - 1).none? { |i| number % i == 0 }
 end
 
 def largest_prime_factor(number)
@@ -18,4 +18,4 @@ def largest_prime_factor(number)
   number
 end
 
-puts largest_prime_factor(600851475143)
+puts largest_prime_factor(600_851_475_143)
