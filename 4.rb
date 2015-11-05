@@ -3,8 +3,8 @@
 
 def largest_palindrome_product(number_1, number_2)
   largest_palindrome = 0
-  (1..number_1).each do |i|
-    (1..number_2).each do |j|
+  number_1.times do |i|
+    number_2.times do |j|
       (i * j).to_s.reverse == (i * j).to_s && (i * j) > largest_palindrome ? largest_palindrome = (i * j) : nil
     end
   end
