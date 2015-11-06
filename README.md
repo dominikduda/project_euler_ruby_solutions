@@ -2,7 +2,7 @@
 
 In case content of site mentioned above would change for whatever reason, I'm pasting here versions of problems I was working with.
 
-#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21)
+#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22)
 
 ---
 ### Problem 1:
@@ -410,6 +410,18 @@ For example, the proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 a
 Evaluate the sum of all the amicable numbers under 10000.
 
 [See this problem on Project Euler](https://projecteuler.net/problem=21) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/21.rb)
+
+---
+### Problem 22:
+##### Names scores
+Using [22.txt](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/materials/22.txt), a 46K text file containing over five-thousand first names, begin by sorting it into alphabetical order. Then working out the alphabetical value for each name, multiply this value by its alphabetical position in the list to obtain a name score.
+
+For example, when the list is sorted into alphabetical order, COLIN, which is worth 3 + 15 + 12 + 9 + 14 = 53, is the 938th name in the list. So, COLIN would obtain a score of 938 × 53 = 49714.
+
+What is the total of all the name scores in the file?
+
+[See this problem on Project Euler](https://projecteuler.net/problem=22) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/22.rb)
+
 
 <!--
 <template>
