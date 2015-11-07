@@ -2,7 +2,7 @@
 
 In case content of site mentioned above would change for whatever reason, I'm pasting here versions of problems I was working with.
 
-#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23)
+#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23), [24](#problem-24)
 
 ---
 ### Problem 1:
@@ -434,6 +434,17 @@ As 12 is the smallest abundant number, 1 + 2 + 3 + 4 + 6 = 16, the smallest numb
 Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
 
 [See this problem on Project Euler](https://projecteuler.net/problem=23) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/23.rb)
+
+---
+### Problem 24:
+##### Lexicographic permutations
+A permutation is an ordered arrangement of objects. For example, 3124 is one possible permutation of the digits 1, 2, 3 and 4. If all of the permutations are listed numerically or alphabetically, we call it lexicographic order. The lexicographic permutations of 0, 1 and 2 are:
+
+012   021   102   120   201   210
+
+What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?
+
+[See this problem on Project Euler](https://projecteuler.net/problem=24) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/24.rb)
 
 <!--
 <template>
