@@ -2,7 +2,7 @@
 
 In case content of site mentioned above would change for whatever reason, I'm pasting here versions of problems I was working with.
 
-#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23), [24](#problem-24)
+#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23), [24](#problem-24), [25](#problem-25)
 
 ---
 ### Problem 1:
@@ -445,6 +445,34 @@ A permutation is an ordered arrangement of objects. For example, 3124 is one pos
 What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?
 
 [See this problem on Project Euler](https://projecteuler.net/problem=24) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/24.rb)
+
+---
+### Problem 25:
+##### lorem ipsum
+The Fibonacci sequence is defined by the recurrence relation:
+
+F<sub>n</sub> = F<sub>n−1</sub> + F<sub>n−2</sub>, where F<sub>1</sub> = 1 and F<sub>2</sub> = 1.
+
+Hence the first 12 terms will be:
+
+F<sub>1</sub> = 1<br>
+F<sub>2</sub> = 1<br>
+F<sub>3</sub> = 2<br>
+F<sub>4</sub> = 3<br>
+F<sub>5</sub> = 5<br>
+F<sub>6</sub> = 8<br>
+F<sub>7</sub> = 13<br>
+F<sub>8</sub> = 21<br>
+F<sub>9</sub> = 34<br>
+F<sub>10</sub> = 55<br>
+F<sub>11</sub> = 89<br>
+F<sub>12</sub> = 144
+
+The 12th term, F<sub>12</sub>, is the first term to contain three digits.
+
+What is the index of the first term in the Fibonacci sequence to contain 1000 digits?
+
+[See this problem on Project Euler](https://projecteuler.net/problem=25) | [See my solution](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/25.rb)
 
 <!--
 <template>
