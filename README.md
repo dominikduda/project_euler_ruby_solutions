@@ -448,7 +448,7 @@ What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 
 
 ---
 ### Problem 25:
-##### lorem ipsum
+##### 1000-digit Fibonacci number
 The Fibonacci sequence is defined by the recurrence relation:
 
 F<sub>n</sub> = F<sub>n−1</sub> + F<sub>n−2</sub>, where F<sub>1</sub> = 1 and F<sub>2</sub> = 1.
