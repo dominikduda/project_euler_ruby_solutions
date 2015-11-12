@@ -32,7 +32,7 @@ class FractionOfOne {
         }
 
         int decimal_part_length() {
-            return sizeof(decimal_part)/sizeof(decimal_part[0]);
+            return sizeof(decimal_part) / sizeof(decimal_part[0]);
         }
 
     public:
@@ -56,14 +56,13 @@ class FractionOfOne {
             int precision = decimal_part_length();
             int cycle_length = 0;
             for (int start = 0; start < precision - 2 * start; start++) {
-                for (int length = 6; length < (precision - 2*start) / 2 ; length++) {
+                for (int length = 6; length < (precision - 2 * start) / 2; length++) {
                     if (is_there_cycle(start, length)) {
                         cycle_length = length;
-                        goto found;
+                        return cycle_length;
                     }
                 }
             }
-            found:
             return cycle_length;
         }
 };
