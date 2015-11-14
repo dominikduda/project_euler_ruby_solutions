@@ -6,6 +6,37 @@
 using namespace std;
 
 class FractionOfOne {
+    public:
+        void divide_by(int divisor) {
+            fill_decimal_part_with_zeros();
+            int dividend = 10;
+            int precision = decimal_part_length();
+            for (int i = 0; i < precision; i++) {
+                if (dividend >= divisor) {
+                    decimal_part[i] = (dividend - dividend % divisor) / divisor;
+                    dividend = (dividend - divisor * decimal_part[i]) * 10;
+                    if (dividend == 0) break;
+                    continue;
+                }
+                dividend *= 10;
+            }
+        }
+
+        // for cycles longer than 5 digits
+        int recurring_cycle_length() {
+            int precision = decimal_part_length();
+            int cycle_length = 0;
+            for (int start = 0; start < precision - 2 * start; start++) {
+                for (int length = 6; length < (precision - 2 * start) / 2; length++) {
+                    if (is_there_cycle(start, length)) {
+                        cycle_length = length;
+                        return cycle_length;
+                    }
+                }
+            }
+            return cycle_length;
+        }
+
     private:
         int decimal_part[2000];
 
@@ -33,37 +64,6 @@ class FractionOfOne {
 
         int decimal_part_length() {
             return sizeof(decimal_part) / sizeof(decimal_part[0]);
-        }
-
-    public:
-        void divide_by(int divisor) {
-            fill_decimal_part_with_zeros();
-            int dividend = 10;
-            int precision = decimal_part_length();
-            for (int i = 0; i < precision; i++) {
-                if (dividend >= divisor) {
-                    decimal_part[i] = (dividend - dividend % divisor) / divisor;
-                    dividend = (dividend - divisor * decimal_part[i]) * 10;
-                    if (dividend == 0) { break; }
-                    continue;
-                }
-                dividend *= 10;
-            }
-        }
-
-        // for cycles longer than 5 digits
-        int recurring_cycle_length() {
-            int precision = decimal_part_length();
-            int cycle_length = 0;
-            for (int start = 0; start < precision - 2 * start; start++) {
-                for (int length = 6; length < (precision - 2 * start) / 2; length++) {
-                    if (is_there_cycle(start, length)) {
-                        cycle_length = length;
-                        return cycle_length;
-                    }
-                }
-            }
-            return cycle_length;
         }
 };
 
