@@ -4,7 +4,7 @@ In case content of site mentioned above would change for whatever reason, I'm pa
 
 All solutions are made in ruby 2.2.3 or c++.
 
-#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23), [24](#problem-24), [25](#problem-25), [26](#problem-26), [27](#problem-27)
+#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23), [24](#problem-24), [25](#problem-25), [26](#problem-26), [27](#problem-27), [28](#problem-28)
 
 ---
 ### Problem 1:
@@ -519,6 +519,25 @@ e.g. |11| = 11 and |−4| = 4
 Find the product of the coefficients, a and b, for the quadratic expression that produces the maximum number of primes for consecutive values of n, starting with n = 0.
 
 [See this problem on Project Euler](https://projecteuler.net/problem=27) | [See my solution (.cpp)](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/27.cpp)
+
+---
+### Problem 28:
+##### Number spiral diagonals
+Starting with the number 1 and moving to the right in a clockwise direction a 5 by 5 spiral is formed as follows:
+
+||||||
+|:----:|:----:|:----:|:----:|:----:|
+|**21**|  22  |  23  | 24   |**25**|
+|  20  |** 7**|   8  |** 9**|  10  |
+|  19  |   6  |** 1**|   2  |  11  |
+|  18  |** 5**|   4  |** 3**|  12  |
+|**17**|  16  |  15  |  14  |**13**|
+
+It can be verified that the sum of the numbers on the diagonals is 101.
+
+What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed in the same way?
+
+[See this problem on Project Euler](https://projecteuler.net/problem=28) | [See my solution (.rb)](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/28.rb)
 
 <!--
 <template>

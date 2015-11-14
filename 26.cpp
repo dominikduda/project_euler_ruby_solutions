@@ -7,15 +7,21 @@ using namespace std;
 
 class FractionOfOne {
     public:
+        FractionOfOne() {
+            int precision = decimal_part_length();
+            for (int i = 0; i < precision; i++) {
+                decimal_part[i] = 0;
+            }
+        }
+
         void divide_by(int divisor) {
-            fill_decimal_part_with_zeros();
             int dividend = 10;
             int precision = decimal_part_length();
             for (int i = 0; i < precision; i++) {
                 if (dividend >= divisor) {
                     decimal_part[i] = (dividend - dividend % divisor) / divisor;
                     dividend = (dividend - divisor * decimal_part[i]) * 10;
-                    if (dividend == 0) break;
+                    if (dividend == 0) { break; }
                     continue;
                 }
                 dividend *= 10;
@@ -39,13 +45,6 @@ class FractionOfOne {
 
     private:
         int decimal_part[2000];
-
-        void fill_decimal_part_with_zeros() {
-            int precision = decimal_part_length();
-            for (int i = 0; i < precision; i++) {
-                decimal_part[i] = 0;
-            }
-        }
 
         bool is_there_cycle(int start_pos, int length) {
             bool result = true;
