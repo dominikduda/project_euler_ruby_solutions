@@ -29,6 +29,6 @@ class Names
   end
 end
 
-names = File.open('materials/22.txt', 'r', &:read)
+names = File.open('../materials/22.txt', 'r', &:read)
 names = Names.new(names)
 puts names.sum_of_names_scores
