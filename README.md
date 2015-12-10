@@ -600,7 +600,7 @@ Find the sum of all products whose multiplicand/multiplier/product identity can 
 
 HINT: Some products can be obtained in more than one way so be sure to only include it once in your sum.
 
-[See this problem on Project Euler](https://projecteuler.net/problem=32) | [See my solution (.rb)](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/32.rb)
+[See this problem on Project Euler](https://projecteuler.net/problem=32) | [See my solution (.rb)](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/ruby_solutions/32.rb)
 <!--
 <template>
 
