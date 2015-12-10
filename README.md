@@ -4,7 +4,7 @@ In case content of site mentioned above would change for whatever reason, I'm pa
 
 All solutions are made in ruby 2.2.3 or c++.
 
-#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23), [24](#problem-24), [25](#problem-25), [26](#problem-26), [27](#problem-27), [28](#problem-28), [29](#problem-29), [30](#problem-30), [31](#problem-31)
+#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23), [24](#problem-24), [25](#problem-25), [26](#problem-26), [27](#problem-27), [28](#problem-28), [29](#problem-29), [30](#problem-30), [31](#problem-31), [32](#problem-32)
 
 ---
 ### Problem 1:
@@ -589,6 +589,17 @@ How many different ways can £2 be made using any number of coins?
 
 [See this problem on Project Euler](https://projecteuler.net/problem=31) | [See my solution (.rb)](https://github.com/dominikduda/project_euler_solutions/blob/master/ruby_solutions/31.rb)
 
+---
+### Problem 32:
+##### Pandigital products
+We shall say that an n-digit number is pandigital if it makes use of all the digits 1 to n exactly once; for example, the 5-digit number, 15234, is 1 through 5 pandigital.
+
+The product 7254 is unusual, as the identity, 39 × 186 = 7254, containing multiplicand, multiplier, and product is 1 through 9 pandigital.
+
+Find the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through 9 pandigital.
+
+HINT: Some products can be obtained in more than one way so be sure to only include it once in your sum.
+[See this problem on Project Euler](https://projecteuler.net/problem=32) | [See my solution (.rb)](https://github.com/dominikduda/project_euler_ruby_solutions/blob/master/32.rb)
 <!--
 <template>
 
