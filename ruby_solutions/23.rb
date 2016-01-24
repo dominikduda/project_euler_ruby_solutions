@@ -1,7 +1,3 @@
-
-# https://projecteuler.net/problem=23
-# Answer is: 4179871
-
 require 'prime'
 
 class Number

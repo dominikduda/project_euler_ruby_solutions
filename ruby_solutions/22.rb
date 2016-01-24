@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=22
-# Answer is: 871198282
-
 class Names
   def initialize(names)
     @names = names

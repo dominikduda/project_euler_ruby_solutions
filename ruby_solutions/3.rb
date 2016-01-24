@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=3
-# Answer is: 6857
-
 def prime?(number)
   (2..number - 1).none? { |i| number % i == 0 }
 end

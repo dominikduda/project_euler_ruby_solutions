@@ -15,3 +15,4 @@ class LimitedRepeatingCombination
 end
 
 puts LimitedRepeatingCombination.new([1, 2, 5, 10, 20, 50, 100, 200]).amount_of_combinations(200)
+

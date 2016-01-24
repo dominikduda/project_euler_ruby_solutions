@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=14
-# Answer is: 837799
-
 term_with_max_sequence_length = 0
 max_sequence_length = 0
 known_sequences = {}

@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=19
-# Answer is: 171
-
 sunday_count = 0
 
 1901.upto(2000) do |year|

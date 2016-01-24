@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=32
-# Answer is: 45228
-
 class PandigitalMultiplitacion
   attr_writer :multiplicand, :multiplier
 
@@ -35,7 +32,7 @@ permutations.each do |permutation|
   1.upto(4) do |i|
     pandigital_multiplication.multiplicand = permutation.slice(0, i).join('').to_i
     pandigital_multiplication.multiplier = permutation.slice(i, 5 - i).join('').to_i
-    pandigital_multiplication.unusual? ? pandigital_products << pandigital_multiplication.product : nil
+    pandigital_products << pandigital_multiplication.product if pandigital_multiplication.unusual?
   end
 end
 puts pandigital_products.uniq.inject(&:+)

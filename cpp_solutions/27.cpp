@@ -1,6 +1,3 @@
-// https://projecteuler.net/problem=27
-// Answer is: -59231
-
 #include <iostream>
 
 using namespace std;

@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=28
-# Answer is: 669171001
-
 class Spiral
   def initialize(side_length)
     @side_length = side_length

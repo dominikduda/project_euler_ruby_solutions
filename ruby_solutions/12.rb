@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=12
-# Answer is: 76576500
-
 require 'prime'
 
 def factorize_first(number)

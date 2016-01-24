@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=21
-# Answer is: 31626
-
 amicable_numbers_sum = 0
 
 2.upto(10_001) do |i|

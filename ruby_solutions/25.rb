@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=25
-# Answer is: 4782
-
 class Fibonacci
   def initialize(term_rear, term_front)
     @term_rear = term_rear

@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=4
-# Answer is: 906609
-
 def largest_palindrome_product(number_1, number_2)
   largest_palindrome = 0
   number_1.times do |i|

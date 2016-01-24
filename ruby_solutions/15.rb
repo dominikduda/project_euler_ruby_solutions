@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=15
-# Answer is: 137846528820
-
 def make_second_row(grid_side_length)
   second_row = []
   1.upto(grid_side_length) { |i| second_row << i + 1 }

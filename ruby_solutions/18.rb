@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=18
-# Answer is: 1074
-
 def make_triangle(array_of_numbers)
   i = 1
   until array_of_numbers[0].is_a?(Array)

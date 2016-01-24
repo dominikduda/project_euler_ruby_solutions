@@ -1,6 +1,3 @@
-# https://projecteuler.net/problem=9
-# Answer is: 31875000
-
 a = 1
 b = a + 1
 c = 1000 - (a + b)
