@@ -4,7 +4,7 @@ In case content of site mentioned above would change for whatever reason, I'm pa
 
 All solutions are made in ruby 2.2.3, ruby 2.3.0 or c++.
 
-#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23), [24](#problem-24), [25](#problem-25), [26](#problem-26), [27](#problem-27), [28](#problem-28), [29](#problem-29), [30](#problem-30), [31](#problem-31), [32](#problem-32), [33](#problem-33)
+#### Solved problems list: [1](#problem-1), [2](#problem-2), [3](#problem-3), [4](#problem-4), [5](#problem-5), [6](#problem-6), [7](#problem-7), [8](#problem-8), [9](#problem-9), [10](#problem-10), [11](#problem-11), [12](#problem-12), [13](#problem-13), [14](#problem-14), [15](#problem-15), [16](#problem-16), [17](#problem-17), [18](#problem-18), [19](#problem-19), [20](#problem-20), [21](#problem-21), [22](#problem-22), [23](#problem-23), [24](#problem-24), [25](#problem-25), [26](#problem-26), [27](#problem-27), [28](#problem-28), [29](#problem-29), [30](#problem-30), [31](#problem-31), [32](#problem-32), [33](#problem-33), [34](#problem-34)
 
 #### [See answers list](https://github.com/dominikduda/project_euler_solutions/blob/master/answers.txt)
 
@@ -616,6 +616,17 @@ There are exactly four non-trivial examples of this type of fraction, less than 
 If the product of these four fractions is given in its lowest common terms, find the value of the denominator.
 
 [See this problem on Project Euler](https://projecteuler.net/problem=33) | [See my solution (.rb)](https://github.com/dominikduda/project_euler_solutions/blob/master/ruby_solutions/33.rb) | [See an answer](https://github.com/dominikduda/project_euler_solutions/blob/master/answers.txt)
+
+---
+### Problem 34:
+##### Digit factorials
+145 is a curious number, as 1! + 4! + 5! = 1 + 24 + 120 = 145.
+
+Find the sum of all numbers which are equal to the sum of the factorial of their digits.
+
+Note: as 1! = 1 and 2! = 2 are not sums they are not included.
+
+[See this problem on Project Euler](https://projecteuler.net/problem=34) | [See my solution (.rb)](https://github.com/dominikduda/project_euler_solutions/blob/master/ruby_solutions/34.rb) | [See an answer](https://github.com/dominikduda/project_euler_solutions/blob/master/answers.txt)
 
 <!--
 <template>

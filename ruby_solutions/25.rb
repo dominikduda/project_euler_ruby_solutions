@@ -1,4 +1,6 @@
 class Fibonacci
+  attr_reader :index
+
   def initialize(term_rear, term_front)
     @term_rear = term_rear
     @term_front = term_front
@@ -9,17 +11,11 @@ class Fibonacci
     @term_rear, @term_front, @index = @term_front, @term_front + @term_rear, @index + 1
     @term_front
   end
-
-  def index
-    @index
-  end
 end
 
 fib = Fibonacci.new(1, 1)
 term_length = 0
 
-while term_length < 1_000
-  term_length = fib.next!.to_s.length
-end
+term_length = fib.next!.to_s.length while term_length < 1_000
 
 puts fib.index

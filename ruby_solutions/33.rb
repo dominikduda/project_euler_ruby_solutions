@@ -7,7 +7,7 @@ class Fraction
   end
 
   def curious?
-    if any_common_digit_in_nominator_and_denominator? then
+    if any_common_digit_in_nominator_and_denominator?
       return (value_after_inexperienced_mathematician_simplify == value && value < 1)
     end
     false
@@ -36,8 +36,8 @@ class Fraction
 
   def value_after_inexperienced_mathematician_simplify
     common_digit = common_digit_from_nominator_and_denominator
-    nominator = @nominator.to_s.sub(common_digit.to_s, "").to_f
-    denominator = @denominator.to_s.sub(common_digit.to_s, "").to_i
+    nominator = @nominator.to_s.sub(common_digit.to_s, '').to_f
+    denominator = @denominator.to_s.sub(common_digit.to_s, '').to_i
     nominator / denominator
   end
 
@@ -58,4 +58,3 @@ denominator_product = non_trivial_curious_fractions.inject(1) { |product, fracti
 result = Fraction.new(nominator_product, denominator_product)
 result.simplify!
 puts result.denominator
-
