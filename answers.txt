@@ -33,3 +33,4 @@ Problem #31: 73682
 Problem #32: 45228
 Problem #33: 100
 Problem #34: 40730
+Problem #35: 55
